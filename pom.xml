@@ -33,6 +33,21 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+
+        <!-- 1. LangChain4j 核心框架支持 (高阶支持) -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-spring-boot-starter</artifactId>
+            <version>0.34.0</version>
+        </dependency>
+
+        <!-- 2. Ollama 专用支持 (低阶支持) -->
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-ollama-spring-boot-starter</artifactId>
+            <version>0.34.0</version>
+        </dependency>
     </dependencies>
 
     <build>

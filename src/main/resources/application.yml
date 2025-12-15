@@ -5,20 +5,20 @@ server:
 spring:
   application:
     name: qf-llm-chat
-langchain4j:
-  ollama:
-    chat-model:
-      base-url: http://localhost:11434
-      model-name: deepseek-r1:7b
-      temperature: 0.7
-      top-p: 0.9
-      timeout: 120s
-    streaming-chat-model:
-      base-url: http://localhost:11434
-      model-name: deepseek-r1:7b
-      temperature: 0.7
-      top-p: 0.9
-      timeout: 300s
+#langchain4j:
+#  ollama:
+#    chat-model:
+#      base-url: http://localhost:11434
+#      model-name: deepseek-r1:7b
+#      temperature: 0.7
+#      top-p: 0.9
+#      timeout: 120s
+#    streaming-chat-model:
+#      base-url: http://localhost:11434
+#      model-name: deepseek-r1:7b
+#      temperature: 0.7
+#      top-p: 0.9
+#      timeout: 300s
 
 logging:
   level:

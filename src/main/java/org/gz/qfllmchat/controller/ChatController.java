@@ -1,5 +1,4 @@
 package org.gz.qfllmchat.controller;
-import dev.langchain4j.model.ollama.OllamaChatModel;
 import org.gz.qfllmchat.service.Assistant;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

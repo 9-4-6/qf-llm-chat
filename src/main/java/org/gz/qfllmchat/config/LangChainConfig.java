@@ -26,7 +26,7 @@ public class LangChainConfig {
     }
     @Bean
     public OllamaStreamingChatModel getOllamaStreamingChatModel() {
-        return   OllamaStreamingChatModel.builder()
+        return  OllamaStreamingChatModel.builder()
                 .baseUrl("http://localhost:11434").modelName("deepseek-r1:7b")
                 .build();
     }

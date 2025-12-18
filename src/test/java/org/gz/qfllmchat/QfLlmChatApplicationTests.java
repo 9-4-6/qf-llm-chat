@@ -24,6 +24,9 @@ class QfLlmChatApplicationTests {
 
     @Test
     void contextLoads() throws URISyntaxException {
+
+
+
         OllamaChatModel ollamaChatModel = OllamaChatModel.builder()
                 .baseUrl("http://localhost:11434").modelName("deepseek-r1:7b")
                 .build();
